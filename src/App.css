@@ -24,6 +24,10 @@ body {
   pointer-events: none;
 }
 
+.comingsoon-gif {
+  height: 30vh;
+}
+
 .App-header {
   min-height: 100vh;
   display: flex;
@@ -31,6 +35,7 @@ body {
   align-items: center;
   justify-content: center;
   color: white;
+  font-family: 'UnicaOneRegular';
 }
 
 .App-link {
@@ -38,21 +43,21 @@ body {
 }
 
 .animated-text {
-  animation: slide-in 10s ease forwards;
+  animation: slide-in 3s ease forwards;
   opacity: 0;
-  animation-iteration-count: infinite;
+  animation-iteration-count: 1;
   color: #333333;
-  font-family: Nunito !important;
+  font-family: 'UnicaOneRegular';
   font-size: xxx-large;
 }
 
 @keyframes slide-in {
   0% {
-    transform: translateY(-100%);
+    transform: translateY(-10%);
     opacity: 1;
   }
   100% {
-    transform: translateY(0);
+    transform: translateY(20%);
     opacity: 1;
   }
 }

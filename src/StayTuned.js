@@ -9,16 +9,23 @@ function StayTuned() {
   useEffect(() => {
     setTimeout(() => {
       navigate('/ourwork');
-    }, 3000);
+    }, 6000);
   });
   return (
     <div className="App">
       <header className="App-header">
         <div>
-          <img src={comingsoon} alt="Coming Soon Animation" />
+          <img
+            className="comingsoon-gif"
+            src={comingsoon}
+            alt="Coming Soon Animation"
+          />
         </div>
         <div>
-          <p className="animated-text">Stay Tuned. We are loading...</p>
+          <p className="animated-text">
+            THIS PAGE IS UNDER MAINTENANCE... <br /> YOU WILL BE REDIRECTED
+            SHORTLY...
+          </p>
         </div>
       </header>
     </div>
