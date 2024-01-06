@@ -20,7 +20,7 @@ const OurWork = () => {
     navigate('/enquiryform');
   }
   function loadKnowUs() {
-    navigate('/staytuned');
+    navigate('/aboutus');
   }
 
   return (
