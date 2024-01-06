@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import './PageMotion.css'; // Create a CSS file for styling
 import './App.css';
 import CommonHeader from './CommonHeader';
+import { Link } from 'react-router-dom';
 
 const OurWork = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -37,34 +38,34 @@ const OurWork = () => {
                 transition={{ duration: 3 }}
               >
                 <div>
-                  <a href="/staytuned" className="services-font-small">
+                  <Link to="/staytuned" className="services-font-small">
                     WEBSITE DESIGNING
-                  </a>
+                  </Link>
                 </div>
                 <div>
-                  <a href="/staytuned" className="services-font-small">
+                  <Link to="/staytuned" className="services-font-small">
                     UI / UX CONSULTATION
-                  </a>
+                  </Link>
                 </div>
                 <div>
-                  <a href="/staytuned" className="services-font-small">
+                  <Link to="/staytuned" className="services-font-small">
                     LOGO DESIGNING
-                  </a>
+                  </Link>
                 </div>
                 <div>
-                  <a href="/staytuned" className="services-font-small">
+                  <Link to="/staytuned" className="services-font-small">
                     BRAND CREATION
-                  </a>
+                  </Link>
                 </div>
                 <div>
-                  <a href="/staytuned" className="services-font-small">
+                  <Link to="/staytuned" className="services-font-small">
                     PHOTOGRAPHY
-                  </a>
+                  </Link>
                 </div>
                 <div>
-                  <a href="/staytuned" className="services-font-small">
+                  <Link to="/staytuned" className="services-font-small">
                     VIDEOGRAPHY
-                  </a>
+                  </Link>
                 </div>
                 <div className="button-div">
                   <button>Click here to enquire more..</button>
