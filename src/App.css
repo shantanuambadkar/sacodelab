@@ -51,6 +51,16 @@ body {
   font-size: 2rem;
 }
 
+.no-header {
+  margin-top: 20vh;
+}
+
+@media (max-width: 1024px) {
+  .no-header {
+    margin-top: 4vh;
+  }
+}
+
 @keyframes slide-in {
   0% {
     transform: translateY(-10%);

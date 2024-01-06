@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import CommonHeader from './CommonHeader';
+/* import CommonHeader from './CommonHeader'; */
 import './Work.css';
 import logo from './logo.png';
 import { useNavigate } from 'react-router-dom';
@@ -17,10 +17,10 @@ function AboutUs() {
 
   return (
     <div>
-      <div>
+      {/* <div>
         <CommonHeader />
-      </div>
-      <div className="container">
+      </div> */}
+      <div className="container no-header">
         <AnimatePresence>
           {isVisible && (
             <motion.div
