@@ -30,7 +30,7 @@ const EnquiryForm = () => {
     setFormData({ ...formData, [name]: value });
   };
 
-  const handleSubmit = async (e) => {
+  /*  const handleSubmit = async (e) => {
     e.preventDefault();
 
     if (
@@ -38,20 +38,20 @@ const EnquiryForm = () => {
       formData.mobile !== null &&
       formData.name !== ''
     ) {
-      /* try {
+      try {
         const response = await axios.post('/sendEmail', formData); 
         console.log(response.data); 
         
       } catch (error) {
         console.error('Error sending email:', error);
         
-      } */
+      }
       console.log('form submitted');
       navigate('/staytuned');
     } else {
       console.log('nothing submitted');
     }
-  };
+  }; */
 
   return (
     <div>
@@ -66,7 +66,7 @@ const EnquiryForm = () => {
             exit={{ opacity: 0, rotateY: 180 }}
             transition={{ duration: 1.5 }}
           >
-            <form onSubmit={handleSubmit} className="padding-form">
+            <form className="padding-form" netlify>
               <div className="padding-form">
                 <input
                   type="text"
