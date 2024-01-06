@@ -1,8 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import comingsoon from './coming_soon.gif';
 import './App.css';
+import { useNavigate } from 'react-router-dom';
 
 function StayTuned() {
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    setTimeout(() => {
+      navigate('/ourwork');
+    }, 3000);
+  });
   return (
     <div className="App">
       <header className="App-header">

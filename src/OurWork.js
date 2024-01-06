@@ -37,12 +37,34 @@ const OurWork = () => {
                 transition={{ duration: 3 }}
               >
                 <div>
-                  <p className="services-font-small">WEBSITE DESIGNING</p>
-                  <p className="services-font-small">UI / UX CONSULTATION</p>
-                  <p className="services-font-small">LOGO DESIGNING</p>
-                  <p className="services-font-small">BRAND CREATION</p>
-                  <p className="services-font-small">PHOTOGRAPHY</p>
-                  <p className="services-font-small">VIDEOGRAPHY</p>
+                  <a href="/staytuned" className="services-font-small">
+                    WEBSITE DESIGNING
+                  </a>
+                </div>
+                <div>
+                  <a href="/staytuned" className="services-font-small">
+                    UI / UX CONSULTATION
+                  </a>
+                </div>
+                <div>
+                  <a href="/staytuned" className="services-font-small">
+                    LOGO DESIGNING
+                  </a>
+                </div>
+                <div>
+                  <a href="/staytuned" className="services-font-small">
+                    BRAND CREATION
+                  </a>
+                </div>
+                <div>
+                  <a href="/staytuned" className="services-font-small">
+                    PHOTOGRAPHY
+                  </a>
+                </div>
+                <div>
+                  <a href="/staytuned" className="services-font-small">
+                    VIDEOGRAPHY
+                  </a>
                 </div>
                 <div className="button-div">
                   <button>Click here to enquire more..</button>
