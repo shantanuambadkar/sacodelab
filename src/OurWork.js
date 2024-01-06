@@ -57,7 +57,7 @@ const OurWork = () => {
                     BRAND CREATION
                   </Link>
                 </div>
-                <div>
+                {/* <div>
                   <Link to="/staytuned" className="services-font-small">
                     PHOTOGRAPHY
                   </Link>
@@ -66,7 +66,7 @@ const OurWork = () => {
                   <Link to="/staytuned" className="services-font-small">
                     VIDEOGRAPHY
                   </Link>
-                </div>
+                </div> */}
                 <div className="button-div">
                   <button>Click here to enquire more..</button>
                 </div>
