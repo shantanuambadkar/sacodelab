@@ -9,7 +9,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       navigate('/ourwork');
-    }, 3000);
+    }, 2000);
   });
 
   return (
