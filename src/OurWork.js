@@ -29,20 +29,20 @@ const OurWork = () => {
             className="page"
           >
             <div>
-              <p className="services-font">Our Work</p>
+              <p className="services-font">OUR WORK</p>
               <motion.div
-                initial={{ opacity: 0, rotateY: -180 }}
+                initial={{ opacity: 0, rotateY: -360 }}
                 animate={{ opacity: 1, rotateY: 0 }}
-                exit={{ opacity: 0, rotateY: 180 }}
-                transition={{ duration: 2 }}
+                exit={{ opacity: 0, rotateY: 360 }}
+                transition={{ duration: 3 }}
               >
                 <div>
-                  <p className="services-font-small">Website Designing</p>
-                  <p className="services-font-small">UI / UX Consultation</p>
-                  <p className="services-font-small">Logo Designing</p>
-                  <p className="services-font-small">Brand Creation</p>
-                  <p className="services-font-small">Photography</p>
-                  <p className="services-font-small">Videography</p>
+                  <p className="services-font-small">WEBSITE DESIGNING</p>
+                  <p className="services-font-small">UI / UX CONSULTATION</p>
+                  <p className="services-font-small">LOGO DESIGNING</p>
+                  <p className="services-font-small">BRAND CREATION</p>
+                  <p className="services-font-small">PHOTOGRAPHY</p>
+                  <p className="services-font-small">VIDEOGRAPHY</p>
                 </div>
                 <div className="button-div">
                   <button>Click here to enquire more..</button>
