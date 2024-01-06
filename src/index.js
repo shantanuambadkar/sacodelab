@@ -6,6 +6,7 @@ import App from './App';
 import StayTuned from './StayTuned';
 import reportWebVitals from './reportWebVitals';
 import OurWork from './OurWork';
+import EnquiryForm from './EnquiryForm';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,6 +16,7 @@ root.render(
         <Route path="/" element={<App />}></Route>
         <Route path="/staytuned" element={<StayTuned />}></Route>
         <Route path="/ourwork" element={<OurWork />}></Route>
+        <Route path="/enquiryform" element={<EnquiryForm />}></Route>
       </Routes>
     </Router>
   </React.StrictMode>

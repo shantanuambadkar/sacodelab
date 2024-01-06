@@ -1,0 +1,9 @@
+.padding-form {
+  padding: 9px;
+  width: 100%;
+}
+
+input,
+textarea {
+  width: 100%;
+}

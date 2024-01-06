@@ -1,19 +1,24 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import './PageMotion.css'; // Create a CSS file for styling
+import './PageMotion.css';
 import './App.css';
 import CommonHeader from './CommonHeader';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const OurWork = () => {
   const [isVisible, setIsVisible] = useState(false);
 
+  const navigate = useNavigate();
+
   useEffect(() => {
-    // Set a timeout to simulate loading and trigger the page turn effect
     setTimeout(() => {
       setIsVisible(true);
-    }, 1); // Adjust the delay as needed
+    }, 1);
   }, []);
+
+  function loadForm() {
+    navigate('/enquiryform');
+  }
 
   return (
     <div>
@@ -57,18 +62,10 @@ const OurWork = () => {
                     BRAND CREATION
                   </Link>
                 </div>
-                {/* <div>
-                  <Link to="/staytuned" className="services-font-small">
-                    PHOTOGRAPHY
-                  </Link>
-                </div>
-                <div>
-                  <Link to="/staytuned" className="services-font-small">
-                    VIDEOGRAPHY
-                  </Link>
-                </div> */}
                 <div className="button-div">
-                  <button>Click here to enquire more..</button>
+                  <button onClick={loadForm}>
+                    Click here to enquire more..
+                  </button>
                 </div>
               </motion.div>
             </div>

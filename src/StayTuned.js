@@ -18,7 +18,7 @@ function StayTuned() {
           <img
             className="comingsoon-gif"
             src={comingsoon}
-            alt="Coming Soon Animation"
+            alt="Coding Animation"
           />
         </div>
         <div>
