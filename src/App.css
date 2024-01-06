@@ -1,4 +1,7 @@
 @import './styles/tailwind.css';
+body {
+  background-color: #c5c5c5;
+}
 .App {
   text-align: center;
 }

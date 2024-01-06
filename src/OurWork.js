@@ -23,7 +23,9 @@ const OurWork = () => {
           transition={{ duration: 1.5 }}
           className="page"
         >
-          <p>Our Work</p>
+          <div>
+            <h1>Our Work</h1>
+          </div>
         </motion.div>
       )}
     </AnimatePresence>
