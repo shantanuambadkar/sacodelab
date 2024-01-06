@@ -19,6 +19,9 @@ const OurWork = () => {
   function loadForm() {
     navigate('/enquiryform');
   }
+  function loadKnowUs() {
+    navigate('/staytuned');
+  }
 
   return (
     <div>
@@ -66,6 +69,9 @@ const OurWork = () => {
                   <button onClick={loadForm}>
                     Click here to enquire more..
                   </button>
+                </div>
+                <div className="button-div">
+                  <button onClick={loadKnowUs}>ABOUT US</button>
                 </div>
               </motion.div>
             </div>
