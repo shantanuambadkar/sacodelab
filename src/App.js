@@ -6,7 +6,7 @@ function App() {
   const navigate = useNavigate();
 
   function navigateToOurWork() {
-    navigate('/staytuned');
+    navigate('/ourwork');
   }
   return (
     <div className="App">
