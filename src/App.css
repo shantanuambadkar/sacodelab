@@ -48,7 +48,7 @@ body {
   animation-iteration-count: 1;
   color: #333333;
   font-family: 'UnicaOneRegular';
-  font-size: xxx-large;
+  font-size: 2rem;
 }
 
 @keyframes slide-in {
