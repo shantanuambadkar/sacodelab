@@ -12,7 +12,7 @@ const CommonHeader = () => {
     <div className="header-container">
       <div>
         <img
-          className="logo"
+          className="logo hover"
           src={smallLogo}
           alt="Black & White Logo"
           onClick={loadOurWork}
