@@ -1,13 +1,19 @@
 @import './styles/tailwind.css';
+@font-face {
+  font-family: 'UnicaOneRegular';
+  src: url('./styles/fonts/UnicaOneRegular.ttf') format('truetype'); /* Update the path and format */
+  /* Add other font properties if needed: font-weight, font-style, etc. */
+}
+@font-face {
+  font-family: 'BlackOpsOneRegular';
+  src: url('./styles/fonts/BlackOpsOneRegular.ttf') format('truetype'); /* Update the path and format */
+  /* Add other font properties if needed: font-weight, font-style, etc. */
+}
 body {
   background-color: #c5c5c5;
   color: #333333;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   font-size: calc(10px + 2vmin);
+  font-family: 'UnicaOneRegular';
 }
 .App {
   text-align: center;
