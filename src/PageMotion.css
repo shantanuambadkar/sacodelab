@@ -10,11 +10,14 @@
   padding-left: 5%;
 }
 .services-font {
-  font-size: xxx-large;
+  font-size: xx-large;
 }
 .services-font-small {
   font-size: large;
 }
 .button-div {
   margin-top: 20px;
+}
+.hover {
+  cursor: pointer;
 }

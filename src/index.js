@@ -8,6 +8,10 @@ import reportWebVitals from './reportWebVitals';
 import OurWork from './OurWork';
 import EnquiryForm from './EnquiryForm';
 import AboutUs from './AboutUs';
+import WebsiteDesigning from './WebsiteDesigning';
+import UIUXConsultation from './UIUXConsultation';
+import LogoDesigning from './LogoDesigning';
+import BrandCreation from './BrandCreation';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,6 +23,10 @@ root.render(
         <Route path="/ourwork" element={<OurWork />}></Route>
         <Route path="/enquiryform" element={<EnquiryForm />}></Route>
         <Route path="/aboutus" element={<AboutUs />}></Route>
+        <Route path="/webdesigning" element={<WebsiteDesigning />}></Route>
+        <Route path="/uiux" element={<UIUXConsultation />}></Route>
+        <Route path="/graphicdesigning" element={<LogoDesigning />}></Route>
+        <Route path="/brandcreation" element={<BrandCreation />}></Route>
       </Routes>
     </Router>
   </React.StrictMode>

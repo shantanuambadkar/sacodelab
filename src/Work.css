@@ -1,0 +1,30 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Display 2 divs in a row by default */
+  gap: 5px;
+  padding: 10px;
+  text-align: left;
+}
+
+.fontstyling {
+  font-size: 1.3rem;
+}
+
+.innerimages {
+  width: 80%;
+}
+.innerimages-uiux {
+  width: 50%;
+}
+
+/* Media query for mobile screens */
+@media (max-width: 924px) {
+  .container {
+    grid-template-columns: 1fr; /* Display 1 div per row for mobile screens */
+  }
+}
+@media (max-width: 1024px) {
+  img {
+    width: 100% !important;
+  }
+}

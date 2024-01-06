@@ -20,7 +20,7 @@ const OurWork = () => {
     navigate('/enquiryform');
   }
   function loadKnowUs() {
-    navigate('/staytuned');
+    navigate('/aboutus');
   }
 
   return (
@@ -46,22 +46,22 @@ const OurWork = () => {
                 transition={{ duration: 3 }}
               >
                 <div>
-                  <Link to="/staytuned" className="services-font-small">
+                  <Link to="/webdesigning" className="services-font-small">
                     WEBSITE DESIGNING
                   </Link>
                 </div>
                 <div>
-                  <Link to="/staytuned" className="services-font-small">
+                  <Link to="/uiux" className="services-font-small">
                     UI / UX CONSULTATION
                   </Link>
                 </div>
                 <div>
-                  <Link to="/staytuned" className="services-font-small">
-                    LOGO DESIGNING
+                  <Link to="/graphicdesigning" className="services-font-small">
+                    GRAPHIC DESIGNING
                   </Link>
                 </div>
                 <div>
-                  <Link to="/staytuned" className="services-font-small">
+                  <Link to="/brandcreation" className="services-font-small">
                     BRAND CREATION
                   </Link>
                 </div>
@@ -70,10 +70,10 @@ const OurWork = () => {
                     Click here to enquire more..
                   </button>
                 </div>
-                <div className="button-div">
-                  <button onClick={loadKnowUs}>ABOUT US</button>
-                </div>
               </motion.div>
+              <p className="services-font hover" onClick={loadKnowUs}>
+                ABOUT US
+              </p>
             </div>
           </motion.div>
         )}
