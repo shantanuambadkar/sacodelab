@@ -24,7 +24,10 @@
   }
 }
 @media (max-width: 1024px) {
-  img {
-    width: 100% !important;
+  .innerimages {
+    width: 100%;
+  }
+  .innerimages-uiux {
+    width: 100%;
   }
 }
