@@ -31,7 +31,7 @@ function AboutUs() {
             >
               <div>
                 <img
-                  className="innerimages-uiux hover"
+                  className="innerimages-logo hover"
                   src={logo}
                   alt="SA CodeLab Logo"
                   onClick={loadFirstPage}

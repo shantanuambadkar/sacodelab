@@ -16,6 +16,9 @@
 .innerimages-uiux {
   width: 50%;
 }
+.innerimages-logo {
+  height: 60vh;
+}
 
 /* Media query for mobile screens */
 @media (max-width: 924px) {
