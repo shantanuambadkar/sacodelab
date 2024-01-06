@@ -30,6 +30,24 @@ const OurWork = () => {
           >
             <div>
               <p className="services-font">Our Work</p>
+              <motion.div
+                initial={{ opacity: 0, rotateY: -180 }}
+                animate={{ opacity: 1, rotateY: 0 }}
+                exit={{ opacity: 0, rotateY: 180 }}
+                transition={{ duration: 2 }}
+              >
+                <div>
+                  <p className="services-font-small">Website Designing</p>
+                  <p className="services-font-small">UI / UX Consultation</p>
+                  <p className="services-font-small">Logo Designing</p>
+                  <p className="services-font-small">Brand Creation</p>
+                  <p className="services-font-small">Photography</p>
+                  <p className="services-font-small">Videography</p>
+                </div>
+                <div className="button-div">
+                  <button>Click here to enquire more..</button>
+                </div>
+              </motion.div>
             </div>
           </motion.div>
         )}
