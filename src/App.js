@@ -10,7 +10,7 @@ function App() {
     setTimeout(() => {
       navigate('/ourwork');
     }, 3000);
-  }, []);
+  });
 
   return (
     <div className="App">
