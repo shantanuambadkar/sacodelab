@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+/* import { motion, AnimatePresence } from 'framer-motion'; */
 import './PageMotion.css';
 import './App.css';
 import CommonHeader from './CommonHeader';
@@ -28,56 +28,35 @@ const OurWork = () => {
       <div>
         <CommonHeader />
       </div>
-      <AnimatePresence>
-        {isVisible && (
-          <motion.div
-            initial={{ opacity: 0, rotateY: -180 }}
-            animate={{ opacity: 1, rotateY: 0 }}
-            exit={{ opacity: 0, rotateY: 180 }}
-            transition={{ duration: 1.5 }}
-            className="page"
-          >
-            <div>
-              <p className="services-font">OUR WORK</p>
-              <motion.div
-                initial={{ opacity: 0, rotateY: -360 }}
-                animate={{ opacity: 1, rotateY: 0 }}
-                exit={{ opacity: 0, rotateY: 360 }}
-                transition={{ duration: 3 }}
-              >
-                <div>
-                  <Link to="/webdesigning" className="services-font-small">
-                    WEBSITE DESIGNING
-                  </Link>
-                </div>
-                <div>
-                  <Link to="/uiux" className="services-font-small">
-                    UI / UX CONSULTATION
-                  </Link>
-                </div>
-                <div>
-                  <Link to="/graphicdesigning" className="services-font-small">
-                    GRAPHIC DESIGNING
-                  </Link>
-                </div>
-                <div>
-                  <Link to="/brandcreation" className="services-font-small">
-                    BRAND CREATION
-                  </Link>
-                </div>
-                <div className="button-div">
-                  <button onClick={loadForm}>
-                    Click here to enquire more..
-                  </button>
-                </div>
-              </motion.div>
-              <p className="services-font hover" onClick={loadKnowUs}>
-                ABOUT US
-              </p>
-            </div>
-          </motion.div>
-        )}
-      </AnimatePresence>
+      <div>
+        <p className="services-font">OUR WORK</p>
+        <div>
+          <Link to="/webdesigning" className="services-font-small">
+            WEBSITE DESIGNING
+          </Link>
+        </div>
+        <div>
+          <Link to="/uiux" className="services-font-small">
+            UI / UX CONSULTATION
+          </Link>
+        </div>
+        <div>
+          <Link to="/graphicdesigning" className="services-font-small">
+            GRAPHIC DESIGNING
+          </Link>
+        </div>
+        <div>
+          <Link to="/brandcreation" className="services-font-small">
+            BRAND CREATION
+          </Link>
+        </div>
+        <div className="button-div">
+          <button onClick={loadForm}>Click here to enquire more..</button>
+        </div>
+        <p className="services-font hover" onClick={loadKnowUs}>
+          ABOUT US
+        </p>
+      </div>
     </div>
   );
 };
