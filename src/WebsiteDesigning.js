@@ -19,7 +19,7 @@ function WebsiteDesigning() {
           />
         </div>
         <div className="fontstyling">
-          Welcome to SA CodeLab where imagination meets functionality. As a
+          Welcome to our world where imagination meets functionality. As a
           website designer, we sculpt pixels into immersive experiences. We
           craft virtual spaces that breathe life into ideas, weaving together
           seamless user interfaces and captivating visuals. Each design is a

@@ -12,6 +12,7 @@ import WebsiteDesigning from './WebsiteDesigning';
 import UIUXConsultation from './UIUXConsultation';
 import LogoDesigning from './LogoDesigning';
 import BrandCreation from './BrandCreation';
+import ContactUs from './ContactUs';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -27,6 +28,7 @@ root.render(
         <Route path="/uiux" element={<UIUXConsultation />}></Route>
         <Route path="/graphicdesigning" element={<LogoDesigning />}></Route>
         <Route path="/brandcreation" element={<BrandCreation />}></Route>
+        <Route path="/contactus" element={<ContactUs />}></Route>
       </Routes>
     </Router>
   </React.StrictMode>

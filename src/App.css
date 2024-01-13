@@ -17,6 +17,7 @@ body {
 }
 .unicaFont {
   font-family: 'UnicaOneRegular';
+  color: #41907a;
 }
 .opsFont {
   font-family: 'BlackOpsOneRegular';
@@ -59,6 +60,26 @@ body {
 
 .no-header {
   margin-top: 20vh;
+}
+
+.slick-slider {
+  width: 50% !important;
+  text-align: center;
+}
+
+.slick-dots {
+  position: relative !important;
+}
+
+.carousel-div {
+  background: linear-gradient(to top, #888888, #ffffff);
+  border-radius: 90px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  padding: 50px 40px;
+  transition: all 0.3s ease;
+  width: 30vh !important;
+  height: 28vh !important;
 }
 
 @media (max-width: 1024px) {
