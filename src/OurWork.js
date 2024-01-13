@@ -15,7 +15,7 @@ const OurWork = () => {
   }
 
   return (
-    <div>
+    <div className="unicaFont">
       <div>
         <CommonHeader />
       </div>

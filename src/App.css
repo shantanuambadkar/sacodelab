@@ -13,7 +13,13 @@ body {
   background-color: #c5c5c5;
   color: #333333;
   font-size: calc(10px + 2vmin);
+  /* font-family: 'UnicaOneRegular'; */
+}
+.unicaFont {
   font-family: 'UnicaOneRegular';
+}
+.opsFont {
+  font-family: 'BlackOpsOneRegular';
 }
 .App {
   text-align: center;
