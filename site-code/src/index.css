@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Arizonia';
+  src: url('./fonts/Arizonia.ttf') format('opentype');
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Arizonia';
+}

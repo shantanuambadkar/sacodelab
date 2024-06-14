@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+  background-color: #282c34; /* Initial background color */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.show-about-us {
+  background-color: white; /* Change background color to white when showing 'About Us' */
+}
+
+.App-logo {
+  height: 30vmin;
+  pointer-events: none;
+  position: absolute; /* Position absolute for easy placement */
+  top: 50%;
+  left: 50%; /* Center horizontally initially */
+  transform: translate(-50%, -50%); /* Centering trick */
+  transition: top 1s ease, left 1s ease; /* Smooth position transition */
+  height: 25%;
+}
+
+.animate-logo{
+  top: 15%;
+}
+
+.about-us-section {
+  margin-top: 20px; /* Add margin to separate logo and 'About Us' section */
+}
