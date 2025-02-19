@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
-import logo from './png/logo-no-background.png';
+import logo from './png/cover.png';
 import './App.css';
+import Services from './Services';
 
 function App() {
   const [showLogo, setShowLogo] = useState(false);
@@ -44,6 +45,9 @@ function App() {
               project as a canvas to weave stories that captivate, engage, and leave
               an indelible mark on the digital world.
             </p>
+            <div>
+              <Services/>
+            </div>
           </div>
         )}
       </header>

@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Arizonia';
+  src: url('./styles/fonts/Arizonia.ttf') format('opentype');
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Arizonia' !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

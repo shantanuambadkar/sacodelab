@@ -1,0 +1,80 @@
+/* Card Container */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  /* Card Styling */
+  .custom-card {
+    width: 340px;
+    background-color: black !important;
+    color: white;
+    border-radius: 20px;
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    position: relative;
+  }
+  
+  /* Hide Avatar Initially */
+  .card-avatar {
+    opacity: 0;
+    width: 50px;
+    height: 50px;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    transform: scale(0.8);
+  }
+  
+  /* Show Avatar on Hover */
+  .custom-card:hover .card-avatar {
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  /* Card Hover Effect */
+  .custom-card:hover {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    transform: scale(1.05);
+    box-shadow: 0px 6px 15px rgba(255, 255, 255, 0.2);
+  }
+  
+  /* Card Title */
+  .card-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: white;
+  }
+  
+  /* Card Text */
+  .card-text {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: white;
+  }
+  
+  /* Expand Icon */
+  .expand-icon {
+    color: white;
+    transition: transform 0.3s ease;
+  }
+  
+  .expand-icon:hover {
+    color: #b0c4de;
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 768px) {
+    .card-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .custom-card {
+      width: 90%;
+    }
+  }
+  
